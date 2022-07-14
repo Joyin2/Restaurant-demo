@@ -29,20 +29,23 @@ export default {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(211, 0, 0, 0.139);
+
+
 }
 
 .signup h1 {
     display: flex;
     width: 100%;
+    padding-top: 200px;
 
     align-items: center;
     justify-content: center;
     margin: auto;
-    color: rgba(0, 128, 0, 0.687);
+    color: skyblue;
 }
 
 .form {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,14 +59,16 @@ body {
     margin: 10px;
     border-radius: 5px;
     text-align: center;
+    border: 2px solid skyblue;
     font-size: 20px;
 }
 
 .form button {
-    width: 100px;
+    width: 420px;
     padding: 5px;
     font-size: 20px;
-    background-color: rgb(13, 185, 116);
+    background-color: skyblue;
+    border: 2px solid skyblue;
     border-radius: 5px;
     cursor: pointer;
 }
